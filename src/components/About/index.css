@@ -1,0 +1,31 @@
+.container-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.about-image {
+  width: 150px;
+}
+
+.heading-About {
+  font-size: 24px;
+  font-family: 'Roboto';
+  color: #551e53;
+  font-weight: 500;
+}
+
+@media (max-width: 576px) {
+  .heading-About {
+    font-size: 48px;
+  }
+}
+
+.contact-about {
+  font-size: 20px;
+  font-family: 'Roboto';
+  text-align: center;
+  color: #555555;
+}

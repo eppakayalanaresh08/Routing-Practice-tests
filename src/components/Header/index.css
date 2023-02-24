@@ -1,0 +1,48 @@
+.Header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+}
+@media (max-width: 575px) {
+  .Header-container {
+    padding: 15px;
+  }
+}
+
+.wave-container {
+  display: flex;
+  align-items: center;
+}
+
+.image-wave {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.wave-heading {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.buttons-header {
+  display: flex;
+  padding-left: 0px;
+}
+
+.list-header {
+  list-style-type: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 16px;
+}
